@@ -13,7 +13,7 @@ class WeatherApp:
 
     def weather_lookup(self):
         weather_json = requests.get(self.url.strip("\n")).json()
-        with open('weather.json', 'a') as weather_to_file:
+        with open("weather.json", "a") as weather_to_file:
             json.dump(weather_json, weather_to_file, indent=4, sort_keys=True)
 
     def weather_format(self):
