@@ -1,3 +1,5 @@
 .venv
 .git
 .vim/
+city.list.json 
+src/api.txt
