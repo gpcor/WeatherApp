@@ -15,3 +15,4 @@ my behalf to my brother once every day using OAuth2 for Gmail.
 - [ ] Use OAuth2 to authenticate with Gmail and send the email.
 - [ ] Create a bash script and cron job to automate the execution of the program daily.
 - [ ] Deploy to the raspberry pi
+- [ ] Watch Brother get random emails he doesn't want or need
