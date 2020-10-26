@@ -10,7 +10,7 @@ all of which will be used to format the body of an email. That email will be sen
 my behalf to my brother once every day using OAuth2 for Gmail. 
 
 ### TODO
-- [ ] Create the formatted message body with relevant weather information
+- [X] Create the formatted message body with relevant weather information
 - [ ] Learn OAuth2
 - [ ] Use OAuth2 to authenticate with Gmail and send the email.
 - [ ] Create a bash script and cron job to automate the execution of the program daily.
