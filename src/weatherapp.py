@@ -17,6 +17,9 @@ class WeatherApp:
         self.wind_direction = ""
         self.wind_speed = ""
         self.today = datetime.date.today()
+        self.recipient = "andrewcameron.corsini@gmail.com"
+        self.sender = "gabriel.corsini@gmail.com"
+        self.subject = "Your Fucking Weather"
 
         with open("city.list.json", "r") as city_raw:
             city_list = json.loads(city_raw.read())
@@ -77,6 +80,10 @@ class WeatherApp:
             Your Fucking Twin Brother
             """
         print(message_body)
+        message = MIMEText(message_body)
+        message["to"] = self.recipient
+        message["from"] = self.sender
+        message["subject"] = self.subject
 
 
 if __name__ == "__main__":
